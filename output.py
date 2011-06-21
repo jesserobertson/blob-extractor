@@ -1,0 +1,3 @@
+{'original_file': './test.jpeg', 'segmented_file': '"test"_segments.jpeg', 'image_size': (500, 320), 'window_size': (0, 500, 0, 320), 'centroids': [(240,151), (298,172), (302,205), (215,162), (118,235), (169,69), ]}
+{'original_file': './test.jpeg', 'segmented_file': '"test"_segments.jpeg', 'image_size': (500, 320), 'window_size': (0, 500, 0, 320), 'centroids': [(240,151), (298,172), (302,205), (215,162), (118,235), (169,69), ]}
+{'original_file': './test.jpeg', 'segmented_file': '"test"_segments.jpeg', 'image_size': (500, 320), 'window_size': (0, 500, 0, 320), 'centroids': [(240,151), (298,172), (302,205), (215,162), (118,235), (169,69), ]}
