@@ -19,12 +19,14 @@ ImageAnalyst::ImageAnalyst(const bfs::path f, const AnalystSettings& s):
     settings(s), logger(new Logger(localLoggingLevel)) 
 {
 	// Set window arguments  
-    iMin = (s.segmentWindow(0) == -1) ? 0 : s.segmentWindow(0);    
-    jMin = (s.segmentWindow(2) == -1) ? 0 : s.segmentWindow(0);
-    iMax = std::min(s.segmentWindow(1), int(columns())); 
-    if (iMax == -1) iMax = int(columns());
-    jMax = std::min(s.segmentWindow(3), int(rows()));
-    if (jMax == -1) jMax = int(rows());
+    iMin = s.segmentWindow(0);
+    iMax = std::min(s.segmentWindow(1), int(columns()));
+    jMin = s.segmentWindow(2);
+    jMax = std::min(s.segmentWindow(3), int(rows())); 
+    if (iMin < 0) iMin = 0;
+    if (jMin < 0) jMin = 0;
+    if (iMax < 0) iMax = int(columns());
+    if (jMax < 0) jMax = int(rows());
 	
 	logger->message("Constructed analyst instance", debugLevel);
 }                                                  
@@ -149,7 +151,6 @@ void ImageAnalyst::segment() {
         segmentFile << segmentFolder.c_str() << "/"
                     << fileLocation.stem().c_str() 
                     << "_segments" << bfs::extension(fileLocation); 
-        std::cout << segmentFile;
         write(segmentFile.str().c_str());
     }   
 }

@@ -89,7 +89,8 @@ int main (int argc, char *argv[]) {
             AnalystSettings analyst_settings;
             analyst_settings.blobSize = 5;
             analyst_settings.thresholdFraction = 0.8;
-            analyst_settings.saveChangedFile = false; 
+            analyst_settings.saveChangedFile = false;
+            analyst_settings.segmentWindow = -1; 
             
             // Set window settings
             if (varMap.count("window")) {
@@ -104,9 +105,6 @@ int main (int argc, char *argv[]) {
                     logger->message(msg.str(), errorLevel);
                     logger->message("Ignoring --window input", warningLevel);
                 }
-            } else {
-                for (int i=0; i<4; i++)
-                    analyst_settings.segmentWindow(i) = -1;
             } 
             
             // Set analyst settings from options

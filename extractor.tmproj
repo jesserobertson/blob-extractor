@@ -27,8 +27,6 @@
 							<string>common.hpp</string>
 							<key>lastUsed</key>
 							<date>2011-06-20T23:11:30Z</date>
-							<key>selected</key>
-							<true/>
 						</dict>
 						<dict>
 							<key>filename</key>
@@ -92,6 +90,12 @@
 					<array>
 						<dict>
 							<key>filename</key>
+							<string>modules/FindGRAPHICSMAGICK.cmake</string>
+							<key>selected</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>filename</key>
 							<string>CMakeLists.txt</string>
 							<key>lastUsed</key>
 							<date>2011-06-20T23:11:29Z</date>
@@ -113,12 +117,6 @@
 							<string>modules/LibFindMacros.cmake</string>
 							<key>lastUsed</key>
 							<date>2011-02-16T01:34:25Z</date>
-						</dict>
-						<dict>
-							<key>filename</key>
-							<string>modules/FindIMAGEMAGICK.cmake</string>
-							<key>lastUsed</key>
-							<date>2011-06-20T23:11:30Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
@@ -163,6 +161,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-	<string>{{48, 31}, {1161, 1147}}</string>
+	<string>{{967, 31}, {905, 1147}}</string>
 </dict>
 </plist>
