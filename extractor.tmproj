@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>currentDocument</key>
-	<string>analyst.cpp</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -13,7 +11,9 @@
 					<key>filename</key>
 					<string>main.cpp</string>
 					<key>lastUsed</key>
-					<date>2011-06-21T04:52:39Z</date>
+					<date>2011-07-12T06:44:22Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>children</key>
@@ -49,15 +49,13 @@
 							<key>filename</key>
 							<string>analyst.cpp</string>
 							<key>lastUsed</key>
-							<date>2011-06-21T04:52:44Z</date>
-							<key>selected</key>
-							<true/>
+							<date>2011-07-12T06:44:21Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
 							<string>analyst.hpp</string>
 							<key>lastUsed</key>
-							<date>2011-06-21T04:52:44Z</date>
+							<date>2011-07-12T06:44:21Z</date>
 						</dict>
 						<dict>
 							<key>filename</key>
@@ -159,59 +157,10 @@
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
-	<dict>
-		<key>analyst.cpp</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>153</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>122</integer>
-		</dict>
-		<key>analyst.hpp</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>22</integer>
-				<key>line</key>
-				<integer>38</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>main.cpp</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>3</integer>
-				<key>line</key>
-				<integer>93</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>55</integer>
-		</dict>
-	</dict>
-	<key>openDocuments</key>
-	<array>
-		<string>analyst.cpp</string>
-		<string>analyst.hpp</string>
-		<string>main.cpp</string>
-	</array>
+	<dict/>
 	<key>showFileHierarchyDrawer</key>
 	<false/>
 	<key>windowFrame</key>
-	<string>{{967, 31}, {905, 1147}}</string>
+	<string>{{2, 6}, {957, 1170}}</string>
 </dict>
 </plist>
