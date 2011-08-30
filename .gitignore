@@ -2,4 +2,9 @@
 /cmake_install.cmake
 /CMakeCache.txt
 /CMakeFiles/
+<<<<<<< HEAD
 /Makefile
+=======
+/Makefile
+/process_images
+>>>>>>> b685d666831f86fa365db2189d6cc0b4a658c30c
